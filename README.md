@@ -1,0 +1,1 @@
+# Verificarea-si-Testarea-Sistemelor-de-Calcul

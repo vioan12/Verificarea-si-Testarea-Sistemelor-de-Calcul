@@ -30,14 +30,13 @@ namespace Lab1
         }
         public Solution SolveWithRealSolutions()
         {
-            Solution solution;
-            if (Delta == 0)
+            Solution solution = null;
+            if (Delta.Equals(0))
             {
                 solution = new Solution(
                     (double)(-Coefficients.B) / (double)(2 * Coefficients.A),
                     (double)(-Coefficients.B) / (double)(2 * Coefficients.A)
                     );
-                return solution;
             }
             if(Delta > 0)
             {
@@ -45,9 +44,12 @@ namespace Lab1
                     (double)(-Coefficients.B + Math.Sqrt(Delta)) / (double)(2 * Coefficients.A),
                     (double)(-Coefficients.B - Math.Sqrt(Delta)) / (double)(2 * Coefficients.A)
                     );
-                return solution;
             }
-            return null;
+            if (Delta < 0)
+            {
+                throw new Exception("the equation do not have a real solution");
+            }
+            return solution;
         }
     }
 }

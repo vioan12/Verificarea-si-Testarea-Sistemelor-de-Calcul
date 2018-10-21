@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_VTSC.137621503.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Lab1" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Coefficients.cs" t="Include" />
+        <e p="Constants.cs" t="Include" />
+        <e p="DecimalRound.cs" t="Include" />
+        <e p="Input.cs" t="Include" />
+        <e p="InputProcessing.cs" t="Include" />
+        <e p="Lab1.csproj" t="IncludeRecursive" />
+        <e p="Output.cs" t="Include" />
+        <e p="OutputProcessing.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="QuadraticEquation.cs" t="Include" />
+        <e p="Solution.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Lab1Tests" t="IncludeRecursive">
+        <e p="InputTest.cs" t="Include" />
+        <e p="Lab1Tests.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Tests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="VTSC.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

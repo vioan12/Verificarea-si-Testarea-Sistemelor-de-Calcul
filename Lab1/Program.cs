@@ -12,11 +12,10 @@ namespace Lab1
         {
             try
             {
-                Input input = new Input();
-                Output output = new Output();
-                QuadraticEquation quadraticEquation = new QuadraticEquation(input.GetData());
-                Solution solution = quadraticEquation.SolveWithRealSolutions();
-                output.PutData(solution);
+                InputProcessing inputProcessing = new InputProcessing(new Input(), new Output());
+                OutputProcessing outputProcessing = new OutputProcessing(new Output());
+                QuadraticEquation quadraticEquation = new QuadraticEquation(inputProcessing.GetData());
+                outputProcessing.PutData(quadraticEquation.SolveWithRealSolutions());
             }
             catch (Exception e)
             {
